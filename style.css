@@ -1,0 +1,39 @@
+body{
+    background-color: #0b090a;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* nav */
+#main-nav .navbar-brand{
+    font-size: 1.5rem;
+    color: #a4161a;
+    font-weight: 500;
+    
+}
+
+#main-nav .nav-link{
+    color: white;
+}
+
+#main-nav .nav-link:hover{
+    color: #e5383b;
+}
+
+
+/* header */
+span{
+    color: #660708;
+}
+
+
+/* section */
+@media (max-width: 1000px) {
+    .order-lg-1 {
+        order: 2;
+    }
+
+    .order-lg-2 {
+        order: 1;
+    }
+}
+
